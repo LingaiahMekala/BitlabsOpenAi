@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('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', {
+    const response = await fetch('https://lingaiah-ai-world.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
